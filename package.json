@@ -1,0 +1,29 @@
+{
+  "name": "atelier_api",
+  "version": "1.0.0",
+  "description": "Posgres backend server for atelier api",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Opulent-Owl/products_api.git"
+  },
+  "author": "Kody Low",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Opulent-Owl/products_api/issues"
+  },
+  "homepage": "https://github.com/Opulent-Owl/products_api#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "nodemon": "^2.0.13",
+    "pg": "^8.7.1",
+    "pgtools": "^0.3.2",
+    "postgres": "^1.0.2"
+  },
+  "devDependencies": {}
+}
