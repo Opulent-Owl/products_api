@@ -1,4 +1,4 @@
-USE atelier_products;
+USE atelier_db;
 /* Relation 'products_styles' */
 ALTER TABLE styles
   ADD CONSTRAINT products_styles
