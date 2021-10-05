@@ -4,8 +4,8 @@
   "description": "Posgres backend server for atelier api",
   "main": "server.js",
   "scripts": {
-    "test": "test",
-    "server": "nodemon server.js"
+    "test": "jest",
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -18,12 +18,16 @@
   },
   "homepage": "https://github.com/Opulent-Owl/products_api#readme",
   "dependencies": {
+    "axios": "^0.22.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "fs": "^0.0.1-security",
+    "jest": "^27.2.4",
     "nodemon": "^2.0.13",
+    "perf_hooks": "^0.0.1",
     "pg": "^8.7.1",
     "pgtools": "^0.3.2",
-    "postgres": "^1.0.2"
+    "postgres": "^1.0.2",
+    "supertest": "^6.1.6"
   }
 }
