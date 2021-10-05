@@ -1,3 +1,4 @@
+CREATE DATABASE atelier_db;
 USE atelier_db;
 /* Table 'products' */
 CREATE TABLE products(

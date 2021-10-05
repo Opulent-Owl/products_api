@@ -41,7 +41,9 @@ var styles = new Schema({
     type: Number,
     required: true
   },
-  skus: ,
+  skus: {
+    type: skus
+  },
   photos: {
     type: photos
   }
